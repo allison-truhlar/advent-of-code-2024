@@ -1,3 +1,4 @@
+# Part 1
 list1 = []
 list2 = []
 
@@ -16,5 +17,16 @@ for i in range(len(list1)):
     diff = abs(list1[i] - list2[i])
     distances.append(diff)
 
+
 total_distance = sum(distances)
-print(total_distance)
+print(f"Part 1 solution: {total_distance}")
+
+# Part 2
+sim_scores = []
+
+for i in range(len(list1)):
+    score = list1[i] * list2.count(list1[i])
+    sim_scores.append(score)
+
+total_sim_score = sum(sim_scores)
+print(f"Part 2 solution: {total_sim_score}")
