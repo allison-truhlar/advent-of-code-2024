@@ -1,6 +1,3 @@
-# Mac-specific
-.DS_Store
-
 # pixi environments
 .pixi
 *.egg-info
