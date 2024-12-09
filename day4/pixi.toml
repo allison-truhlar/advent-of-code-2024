@@ -1,0 +1,14 @@
+[project]
+authors = ["allison-truhlar <truhlara@janelia.hhmi.org>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "day4"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.1,<4"
+numpy = ">=2.1.3,<3"
+jupyterlab = ">=4.3.2,<5"
